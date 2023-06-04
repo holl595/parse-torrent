@@ -26,6 +26,6 @@ for i in $TORRENTS; do
 	    fi
 	fi
 done
-echo "Waiting ${WAIT} seconds until the next run"
+echo "Waiting ${RSS_INTERVAL} minutes until the next run"
 sleep $WAIT
 done
