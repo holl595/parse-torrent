@@ -20,8 +20,8 @@ for i in $TORRENTS; do
 	    echo "${i##*/} - ${SIZE} MB"
 	    if [ $SIZE -ge $FREELEECH ]; then
 	    	if [ $SIZE -le $MAX_SIZE ]; then
-	    		echo "Outputing ${i##*/}"
-	    		mv /tmp/${i##*/} /output/
+	    		echo "OUTPUTTING ${i##*/}"
+	    		cp /tmp/${i##*/} /output/
 	    	fi
 	    fi
 	fi
