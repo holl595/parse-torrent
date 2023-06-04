@@ -1,5 +1,8 @@
 FROM node:latest
+
+ENV FREELEECH=14500
 ENV MAX_SIZE = 0
+
 
 RUN npm install parse-torrent -g
 

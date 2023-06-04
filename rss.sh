@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# 14GB = 14336 MB
-FREELEECH=14500
-
 if [ -z $RSS_KEY ]; then
 	echo "ERROR: API_KEY has not been set!"
 	exit 1
